@@ -4,5 +4,5 @@ version = 1.0
 dependencies = []
 steps = [
   'echo "Hello, world!"',
-  'echo "Goodbye, world!"'
+  'echo "This is a demo of nexa-pkg, the package manager coming to Nexa Linux."'
 ]
