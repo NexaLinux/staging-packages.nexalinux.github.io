@@ -1,7 +1,7 @@
 maintainer = "justwinstuff"
 maintainer_email = "justwinstuff@gmail.com"
 version = "N/A"
-dependencies = ["curl"]
+dependencies = ["curl", "build-essential"]
 steps = [
   '/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"'
 ]
