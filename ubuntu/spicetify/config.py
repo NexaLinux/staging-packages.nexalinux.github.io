@@ -6,7 +6,7 @@ steps = [
   'curl -fsSL https://raw.githubusercontent.com/spicetify/cli/main/install.sh | sh',
   '~/.spicetify/spicetify backup apply'
 ]
-uninstall_stepps = [
+uninstall_steps = [
   'spicetify restore',
   'rm -rf ~/.spicetify'
 ]
